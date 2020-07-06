@@ -22,14 +22,14 @@ const submissionSchema = new mongoose.Schema({
 		type: String,
 		required: [
 			true,
-			"Please select an option for first parent's country of origin",
+			"Select an option for first parent's country of origin",
 		],
 	},
 	parentTwoCountryOfOrigin: {
 		type: String,
 		required: [
 			true,
-			"Please select an option for second parent's country of origin",
+			"Select an option for second parent's country of origin",
 		],
 	},
 	userAge: {
