@@ -1,4 +1,6 @@
-require("dotenv").config({ path: "./config.env" });
+if (process.env.NODE_ENV === "development") {
+	require("dotenv").config({ path: "./config.env" });
+}
 
 process.on("uncaughtException", (err) => {
 	console.log("UNCAUGHT EXCEPTION! 🔥 Shutting down...");
