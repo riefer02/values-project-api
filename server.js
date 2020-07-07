@@ -6,6 +6,7 @@ process.on("uncaughtException", (err) => {
 	process.exit(1);
 });
 
+const path = require("path");
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -18,6 +19,8 @@ const xss = require("xss-clean");
 const AppError = require("./utils/AppError");
 const submissionRouter = require("./routes/submissions");
 const globalErrorHandler = require("./controllers/errorController");
+
+const publicPath = path.resolve(__dirname, "./public");
 
 // Limit Request From Same IP
 const limiter = rateLimit({
@@ -57,6 +60,14 @@ app.use(xss());
 app.use(cors());
 
 app.use("/api/v1/submit", submissionRouter);
+
+if (process.env.NODE_ENV === "production") {
+	app.use(express.static(publicPath));
+	console.log(publicPath);
+	app.get("*", (req, res) => {
+		res.sendFile(path.resolve(__dirname, "index.html"));
+	});
+}
 
 app.all("*", (req, res, next) => {
 	next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
