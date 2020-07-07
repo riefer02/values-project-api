@@ -18,7 +18,7 @@ const helmet = require("helmet");
 const mongoSanitize = require("express-mongo-sanitize");
 const xss = require("xss-clean");
 
-const AppError = require("./utils/AppError");
+const AppError = require("./utils/appError");
 const submissionRouter = require("./routes/submissions");
 const globalErrorHandler = require("./controllers/errorController");
 
