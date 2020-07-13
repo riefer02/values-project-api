@@ -20,6 +20,7 @@ const xss = require("xss-clean");
 
 const AppError = require("./utils/appError");
 const submissionRouter = require("./routes/submissions");
+const dataRouter = require("./routes/data");
 const globalErrorHandler = require("./controllers/errorController");
 
 const publicPath = path.resolve(__dirname, "./public");
@@ -62,6 +63,7 @@ app.use(xss());
 app.use(cors());
 
 app.use("/api/v1/submit", submissionRouter);
+app.use("/api/v1/data", dataRouter);
 
 if (process.env.NODE_ENV === "production") {
 	app.use(express.static(publicPath));
