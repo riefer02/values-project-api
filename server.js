@@ -17,6 +17,7 @@ const rateLimit = require("express-rate-limit");
 const helmet = require("helmet");
 const mongoSanitize = require("express-mongo-sanitize");
 const xss = require("xss-clean");
+const history = require("connect-history-api-fallback");
 
 const AppError = require("./utils/appError");
 const submissionRouter = require("./routes/submissions");
@@ -33,6 +34,8 @@ const limiter = rateLimit({
 });
 
 app.use("/api", limiter);
+
+app.use(history());
 
 // Set Security HTTP Headers
 app.use(helmet());
