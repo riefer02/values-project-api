@@ -23,7 +23,7 @@
     "graphql": "^15.3.0",
     "graphql-iso-date": "^3.6.1",
     "helmet": "^3.23.3",
-    "mongoose": "^5.9.25",
+    "mongoose": "^5.9.28",
     "xss-clean": "^0.1.1"
   },
   "devDependencies": {

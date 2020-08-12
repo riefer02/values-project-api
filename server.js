@@ -4,11 +4,11 @@ if (process.env.NODE_ENV === "development") {
 }
 
 // Initial Error Handling
-// process.on("uncaughtException", (err) => {
-// 	console.log("UNCAUGHT EXCEPTION! 🔥 Shutting down...");
-// 	console.log(err.name, err.message);
-// 	process.exit(1);
-// });
+process.on("uncaughtException", (err) => {
+	console.log("UNCAUGHT EXCEPTION! 🔥 Shutting down...");
+	console.log(err.name, err.message);
+	process.exit(1);
+});
 
 // Project Environment
 const path = require("path");
@@ -104,3 +104,5 @@ process.on("unhandledRejection", (err) => {
 		process.exit(1);
 	});
 });
+
+console.log("hello test");

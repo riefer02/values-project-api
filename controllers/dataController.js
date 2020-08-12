@@ -62,21 +62,29 @@ const totalValuesCount = async (listOfValues) => {
 };
 
 exports.getSubmissions = catchAsync(async (req, res) => {
-	const submissions = await Submission.find();
+	console.log("Running getSubmissions functions");
+	const submissions = await Submission.find({});
 	res.status(200).json({
-		status,
 		submissions,
 	});
 });
 
 exports.getValues = catchAsync(async (req, res) => {
 	// const valuesArray = await Submission.find().select("values -_id");
-
 	const totalValues = await totalValuesCount(values).then((data) => {
 		return data;
 	});
-
 	res.status(200).json({
 		totalValues,
+	});
+});
+
+exports.getTotalParticipants = catchAsync(async (req, res) => {
+	console.log("hello");
+	const participates = await Submission.find({});
+	const numOfParticipates = participates.length;
+	console.log(numOfParticipates);
+	res.status(200).json({
+		numOfParticipates,
 	});
 });
