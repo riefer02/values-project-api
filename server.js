@@ -34,16 +34,19 @@ const publicPath = path.resolve(__dirname, "./public");
 // GraphQL Implmentation
 const { graphqlHTTP } = require("express-graphql");
 const schema = require("./schema/schema");
-app.use(
-	"/graphql",
-	graphqlHTTP({
-		//directing express-graphql to use this schema to map out the graph
-		schema,
-		//directing express-graphql to use graphiql when goto '/graphql' address in the browser
-		//which provides an interface to make GraphQl queries
-		graphiql: true,
-	})
-);
+
+if (process.env.NODE_ENV === "development") {
+	app.use(
+		"/graphql",
+		graphqlHTTP({
+			//directing express-graphql to use this schema to map out the graph
+			schema,
+			//directing express-graphql to use graphiql when goto '/graphql' address in the browser
+			//which provides an interface to make GraphQl queries
+			graphiql: true,
+		})
+	);
+}
 
 // Limiter for IP Requests
 const limiter = rateLimit({
