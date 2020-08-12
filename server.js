@@ -24,15 +24,26 @@ const mongoSanitize = require("express-mongo-sanitize");
 const xss = require("xss-clean");
 const history = require("connect-history-api-fallback");
 
-// Logic 
+// Logic
 const AppError = require("./utils/appError");
 const submissionRouter = require("./routes/submissions");
 const dataRouter = require("./routes/data");
 const globalErrorHandler = require("./controllers/errorController");
 const publicPath = path.resolve(__dirname, "./public");
 
-// GraphQL Implmentation 
-
+// GraphQL Implmentation
+const { graphqlHTTP } = require("express-graphql");
+const schema = require("./schema/schema");
+app.use(
+	"/graphql",
+	graphqlHTTP({
+		//directing express-graphql to use this schema to map out the graph
+		schema,
+		//directing express-graphql to use graphiql when goto '/graphql' address in the browser
+		//which provides an interface to make GraphQl queries
+		graphiql: true,
+	})
+);
 
 // Limiter for IP Requests
 const limiter = rateLimit({
@@ -93,3 +104,5 @@ process.on("unhandledRejection", (err) => {
 		process.exit(1);
 	});
 });
+
+console.log("hello test");
