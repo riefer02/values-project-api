@@ -80,10 +80,8 @@ exports.getValues = catchAsync(async (req, res) => {
 });
 
 exports.getTotalParticipants = catchAsync(async (req, res) => {
-	console.log("hello");
 	const participates = await Submission.find({});
 	const numOfParticipates = participates.length;
-	console.log(numOfParticipates);
 	res.status(200).json({
 		numOfParticipates,
 	});

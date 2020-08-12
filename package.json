@@ -23,6 +23,7 @@
     "graphql": "^15.3.0",
     "graphql-iso-date": "^3.6.1",
     "helmet": "^3.23.3",
+    "mongodb": "^3.6.0",
     "mongoose": "^5.9.28",
     "xss-clean": "^0.1.1"
   },
@@ -32,5 +33,13 @@
   },
   "engines": {
     "node": "14.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riefer02/values-project-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/riefer02/values-project-api/issues"
+  },
+  "homepage": "https://github.com/riefer02/values-project-api#readme"
 }
