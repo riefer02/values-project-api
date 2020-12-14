@@ -1,0 +1,93 @@
+{"_id":{"$oid":"5f04b9bdf0bdb1000468dbc1"},"firstname":"Andrew","lastname":"Riefenstahl","email":"andrew.riefenstahl@gmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"United States of America","userAge":31,"values":{"first":"Education","second":"Community","third":"Art"},"__v":0}
+{"_id":{"$oid":"5f04db2ad65e750004dbcf43"},"firstname":"Andrew","lastname":"Glavan","email":"glavanator@gmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"Not Applicable","parentTwoCountryOfOrigin":"Not Applicable","userAge":31,"values":{"first":"Love","second":"Education","third":"Community"},"__v":0}
+{"_id":{"$oid":"5f04e94ad65e750004dbcf46"},"firstname":"Aastha","lastname":"Karki","email":"karki.aastha9@gmail.com","countryOfOrigin":"Nepal","parentOneCountryOfOrigin":"Nepal","parentTwoCountryOfOrigin":"Nepal","userAge":30,"values":{"first":"Education","second":"Art","third":"Respect"},"__v":0}
+{"_id":{"$oid":"5f04e9c1d65e750004dbcf49"},"firstname":"Patrick","lastname":"Ryan","email":"extraqueso@gmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"United States of America","userAge":33,"values":{"first":"Love","second":"Art","third":"Friendship"},"__v":0}
+{"_id":{"$oid":"5f04ec13d65e750004dbcf4b"},"firstname":"Leiann","lastname":"Mar","email":"leiann_mar@hotmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"Not Applicable","parentTwoCountryOfOrigin":"Not Applicable","userAge":30,"values":{"first":"Love","second":"Community","third":"Education"},"__v":0}
+{"_id":{"$oid":"5f04fc9180b0d4000448bc0e"},"firstname":"Anna","lastname":"Shaver","email":"anna.c.shaver@gmail.com","countryOfOrigin":"Ecuador","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"Ecuador","userAge":33,"values":{"first":"Nature","second":"Art","third":"Family"},"__v":0}
+{"_id":{"$oid":"5f0d0fe477f2e40004e9535e"},"firstname":"Ed","lastname":"Riefenstahl","email":"e.riefenstahl@tcu.edu","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"United States of America","userAge":65,"values":{"first":"Respect","second":"Family","third":"Prestige"},"__v":0}
+{"_id":{"$oid":"5f10b52eb3c0a6000424fa14"},"firstname":"Jordan","lastname":"Hughes","email":"Jhug1843@gmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"United States of America","userAge":30,"values":{"first":"Community","second":"Love","third":"Friendship"},"__v":0}
+{"_id":{"$oid":"5f15f9338a216b0004669617"},"firstname":"Julia","lastname":"Canales","email":"Julia.elyana@gmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"United States of America","userAge":29,"values":{"first":"Respect","second":"Loyalty","third":"Education"},"__v":0}
+{"_id":{"$oid":"5f15f93f8a216b0004669618"},"firstname":"Lauren","lastname":"Paz","email":"laurenpaz22@gmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"Cuba","parentTwoCountryOfOrigin":"Cuba","userAge":31,"values":{"first":"Faith","second":"Family","third":"Love"},"__v":0}
+{"_id":{"$oid":"5f15fddc8a216b0004669619"},"firstname":"Zach","lastname":"Balod","email":"zach.balod@gmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"Ireland","parentTwoCountryOfOrigin":"Philippines (the)","userAge":29,"values":{"first":"Respect","second":"Wealth","third":"Love"},"__v":0}
+{"_id":{"$oid":"5f1607a78a216b000466961a"},"firstname":"Lauren","lastname":"Fincher","email":"lauren_wallis123@yahoo.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"United States of America","userAge":28,"values":{"first":"Love","second":"Education","third":"Wealth"},"__v":0}
+{"_id":{"$oid":"5f16082d8a216b000466961b"},"firstname":"Jeanette","lastname":"Horn","email":"Jeanette.k.horn@gmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"Poland","parentTwoCountryOfOrigin":"Finland","userAge":40,"values":{"first":"Education","second":"Love","third":"Art"},"__v":0}
+{"_id":{"$oid":"5f1614b38a216b000466961c"},"firstname":"jerry","lastname":"sklar","email":"SKLAR.FAMILY@VERIZON.NET","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"United States of America","userAge":61,"values":{"first":"Family","second":"Friendship","third":"Community"},"__v":0}
+{"_id":{"$oid":"5f1615068a216b000466961d"},"firstname":"Colin","lastname":"Hill","email":"chill.hill3@gmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"United States of America","userAge":33,"values":{"first":"Love","second":"Wealth","third":"Community"},"__v":0}
+{"_id":{"$oid":"5f1626858a216b000466961e"},"firstname":"Rachel ","lastname":"Mellen","email":"Rmellen08@gmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"United States of America","userAge":33,"values":{"first":"Love","second":"Family","third":"Education"},"__v":0}
+{"_id":{"$oid":"5f1640578a216b000466961f"},"firstname":"Donna","lastname":"Kauffman","email":"Lndscpng@me.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"United States of America","userAge":58,"values":{"first":"Education","second":"Love","third":"Community"},"__v":0}
+{"_id":{"$oid":"5f174773d858140004b20379"},"firstname":"Hannah","lastname":"Wolf","email":"misshannahwolf@gmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"United States of America","userAge":29,"values":{"first":"Love","second":"Community","third":"Wealth"},"__v":0}
+{"_id":{"$oid":"5f17b630d858140004b2037b"},"firstname":"Clay","lastname":"Melton","email":"Claymelton@gmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"United States of America","userAge":26,"values":{"first":"Love","second":"Community","third":"Wealth"},"__v":0}
+{"_id":{"$oid":"5f288f75a615550004606b85"},"firstname":"Amber","lastname":"Genuske","email":"akgenuske@gmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"United States of America","userAge":31,"values":{"first":"Family","second":"Nature","third":"Love"},"createdAt":{"$date":"2020-08-03T22:28:05.586Z"},"updatedAt":{"$date":"2020-08-03T22:28:05.586Z"},"__v":0}
+{"_id":{"$oid":"5f46b448bf4aab0004028ee5"},"firstname":"Riley","lastname":"Sklar","email":"riley.sklar@gmail.com","countryOfOrigin":"United States of America","parentOneCountryOfOrigin":"United States of America","parentTwoCountryOfOrigin":"United States of America","userAge":30,"values":{"first":"Family","second":"Community","third":"Love"},"createdAt":{"$date":"2020-08-26T19:13:12.093Z"},"updatedAt":{"$date":"2020-08-26T19:13:12.093Z"},"__v":0}
+{
+    "_id": {
+        "$oid": "5f6f5cf015574600046919a5"
+    },
+    "firstname": "Lauren",
+    "lastname": "Riefenstahl",
+    "email": "laurenriefenstahl@gmail.com",
+    "countryOfOrigin": "United States of America",
+    "parentOneCountryOfOrigin": "United States of America",
+    "parentTwoCountryOfOrigin": "United States of America",
+    "userAge": 33,
+    "values": {
+        "first": "Family",
+        "second": "Love",
+        "third": "Friendship"
+    },
+    "createdAt": {
+        "$date": "2020-09-26T15:23:28.460Z"
+    },
+    "updatedAt": {
+        "$date": "2020-09-26T15:23:28.460Z"
+    },
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5f6f9fc715574600046919a6"
+    },
+    "firstname": "JOSEPH",
+    "lastname": "MULLENAX",
+    "email": "joseph.mullenax11@gmail.com",
+    "countryOfOrigin": "United States of America",
+    "parentOneCountryOfOrigin": "United States of America",
+    "parentTwoCountryOfOrigin": "United States of America",
+    "userAge": 32,
+    "values": {
+        "first": "Friendship",
+        "second": "Nature",
+        "third": "Intelligence"
+    },
+    "createdAt": {
+        "$date": "2020-09-26T20:08:39.518Z"
+    },
+    "updatedAt": {
+        "$date": "2020-09-26T20:08:39.518Z"
+    },
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5f8625705ae2670004b6cac3"
+    },
+    "firstname": "Bo",
+    "lastname": "Haan",
+    "email": "BoHaanOfficial@gmail.com",
+    "countryOfOrigin": "Taiwan",
+    "parentOneCountryOfOrigin": "Taiwan",
+    "parentTwoCountryOfOrigin": "Taiwan",
+    "userAge": 37,
+    "values": {
+        "first": "Intelligence",
+        "second": "Education",
+        "third": "Community"
+    },
+    "createdAt": {
+        "$date": "2020-10-13T22:08:48.293Z"
+    },
+    "updatedAt": {
+        "$date": "2020-10-13T22:08:48.293Z"
+    },
+    "__v": 0
+}
